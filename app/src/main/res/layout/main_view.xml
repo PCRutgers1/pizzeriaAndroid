@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><!--<RelativeLayout >-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainController">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/launcher_icon_background"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:subtitle="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:contentDescription="@string/order_chicago_pizza"
+            app:srcCompat="@drawable/chicagopizza" />
+
+        <Button
+            android:id="@+id/orderChicagoPizzaButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:onClick="orderChicagoPizza"
+            android:text="@string/order_chicago_pizza"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/order_ny_pizza"
+            app:srcCompat="@drawable/newyorkpizza" />
+
+        <Button
+            android:id="@+id/orderNYPizza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:onClick="orderNYPizza"
+            android:text="@string/order_ny_pizza"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/view_current_order"
+            app:srcCompat="@drawable/cart" />
+
+        <Button
+            android:id="@+id/viewCurrentOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:onClick="viewCurrentOrder"
+            android:text="@string/view_current_order" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/view_all_store_orders"
+            app:srcCompat="@drawable/allorder" />
+
+        <Button
+            android:id="@+id/viewStoreOrders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:onClick="viewStoreOrders"
+            android:text="@string/view_all_store_orders" />
+
+    </LinearLayout>
+</ScrollView>
+

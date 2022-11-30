@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Pizzeria"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".MainController"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Pizzeria.NoActionBar">
@@ -24,6 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ChicagoPizzaController" android:parentActivityName=".MainController"/>
+        <activity android:name=".NYPizzaController" android:parentActivityName=".MainController"/>
+        <activity android:name=".CurrentOrderController" android:parentActivityName=".MainController"/>
+        <activity android:name=".StoreOrderController" android:parentActivityName=".MainController"/>
     </application>
 
 </manifest>
