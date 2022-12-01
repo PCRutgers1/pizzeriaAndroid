@@ -15,4 +15,37 @@
     <string name="view_current_order">View Current Order</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="crust_type">Crust Type</string>
+    <string name="price">Price $</string>
+    <string name="add_to_order">Add To Order</string>
+    <string name="add">Add Topping</string>
+    <string name="remove">Remove Topping</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="list_of_toppings">List Of Toppings</string>
+    <string name="added_toppings">Added Toppings</string>
+    <string-array name="toppings_array">
+        <item>Pineapple</item>
+        <item>Chicken</item>
+        <item>Beef</item>
+        <item>Ham</item>
+        <item>Sausage</item>
+        <item>Green Peppers</item>
+        <item>Mushroom</item>
+        <item>Onion</item>
+        <item>BBQ Chicken</item>
+        <item>Spinach</item>
+        <item>Provolone</item>
+        <item>Olives</item>
+        <item>Bacon</item>
+    </string-array>
+
+    <string-array name="pizza_options">
+        <item>Build Your Own Pizza</item>
+        <item>Deluxe</item>
+        <item>BBQ Chicken</item>
+        <item>Meatzza</item>
+    </string-array>
+
 </resources>

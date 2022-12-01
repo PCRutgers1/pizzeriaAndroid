@@ -2,9 +2,20 @@ package com.softmeth.pizzeria;
 
 import android.app.ActionBar;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 //
 //import java.lang.reflect.Array;
@@ -31,6 +42,32 @@ public class ChicagoPizzaController extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Order Chicago Pizza");
 
+        populateSpinner();
+        populateToppings();
+    }
+
+    private void populateToppings(){
+        RecyclerView toppingChoices = findViewById(R.id.ToppingsListChicago);
+        toppingChoices.setLayoutManager(new LinearLayoutManager(this));
+        String[] toppings = getResources().getStringArray(R.array.toppings_array);
+
+        ChicagoToppingAdapter adapter = new ChicagoToppingAdapter(this, Arrays.asList(toppings));
+        toppingChoices.setAdapter(adapter);
+
+    }
+
+    private void populateSpinner() {
+        Spinner pizzaChoices = (Spinner) findViewById(R.id.ChoosePizzaChicago);
+
+        String[] pizzaOptions = getResources().getStringArray(R.array.pizza_options);
+
+        ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>
+                (this, android.R.layout.simple_spinner_item,
+                        pizzaOptions); //selected item will look like a spinner set from XML
+
+        spinnerArrayAdapter.setDropDownViewResource(android.R.layout
+                .simple_spinner_dropdown_item);
+        pizzaChoices.setAdapter(spinnerArrayAdapter);
     }
 
     @Override

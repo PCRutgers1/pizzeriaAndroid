@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/peter/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/peter/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.358695652173913" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.196" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.196" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/activity_main.xml" value="0.33" />
@@ -13,6 +15,7 @@
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/main_view.xml" value="0.29853723404255317" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/order_chicago_view.xml" value="0.358695652173913" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/order_ny_view.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/topping_row.xml" value="0.358695652173913" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/view_all_store_orders_view.xml" value="0.358695652173913" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/view_current_orders_view.xml" value="0.358695652173913" />
       </map>
