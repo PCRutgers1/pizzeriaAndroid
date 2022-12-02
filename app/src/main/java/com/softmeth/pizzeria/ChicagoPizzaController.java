@@ -54,6 +54,7 @@ public class ChicagoPizzaController extends AppCompatActivity {
         ChicagoToppingAdapter adapter = new ChicagoToppingAdapter(this, Arrays.asList(toppings));
         toppingChoices.setAdapter(adapter);
 
+
     }
 
     private void populateSpinner() {
