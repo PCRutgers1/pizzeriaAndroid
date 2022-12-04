@@ -2,21 +2,19 @@ package com.softmeth.pizzeria;
 
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChicagoToppingAdapter extends RecyclerView.Adapter<ChicagoToppingAdapter.ViewHolder> {
+public class NYToppingAdapter extends RecyclerView.Adapter<NYToppingAdapter.ViewHolder> {
 
-    public List<String> chicagoToppings;
+    public List<String> NYToppings;
     private LayoutInflater inflater;
     private Context context;
     private ClickListener onClickListener;
@@ -26,11 +24,11 @@ public class ChicagoToppingAdapter extends RecyclerView.Adapter<ChicagoToppingAd
     }
 
     // data is passed into the constructor
-    public ChicagoToppingAdapter(Context context, List<String> data) {
+    public NYToppingAdapter(Context context, List<String> data) {
         if (data == null) {
-            this.chicagoToppings = new ArrayList<>();
+            this.NYToppings = new ArrayList<>();
         } else
-            this.chicagoToppings = data;
+            this.NYToppings = data;
         this.inflater = LayoutInflater.from(context);
         this.context = context;
     }
@@ -59,7 +57,7 @@ public class ChicagoToppingAdapter extends RecyclerView.Adapter<ChicagoToppingAd
      */
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        String top = chicagoToppings.get(position);
+        String top = NYToppings.get(position);
         holder.toppingTextView.setText(top);
         Context c = this.context;
 
@@ -74,7 +72,7 @@ public class ChicagoToppingAdapter extends RecyclerView.Adapter<ChicagoToppingAd
     // total number of rows
     @Override
     public int getItemCount() {
-        return chicagoToppings.size();
+        return NYToppings.size();
     }
 
 
@@ -96,28 +94,28 @@ public class ChicagoToppingAdapter extends RecyclerView.Adapter<ChicagoToppingAd
 
     // convenience method for getting data at click position
     public String getItem(int id) {
-        return chicagoToppings.get(id);
+        return NYToppings.get(id);
     }
 
     public int getSize() {
-        return chicagoToppings.size();
+        return NYToppings.size();
     }
 
     public void addItem(String topping) {
-        chicagoToppings.add(topping);
+        NYToppings.add(topping);
         this.notifyDataSetChanged();
         ;
     }
 
     public void removeItem(String topping) {
-        chicagoToppings.remove(topping);
+        NYToppings.remove(topping);
         this.notifyDataSetChanged();
         ;
     }
 
     public void setItems(List<String> toppings) {
-        chicagoToppings = new ArrayList<>();
-        chicagoToppings.addAll(toppings);
+        NYToppings = new ArrayList<>();
+        NYToppings.addAll(toppings);
         this.notifyDataSetChanged();
     }
 

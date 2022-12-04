@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/peter/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.358695652173913" />
         <entry key="..\:/Users/peter/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.358695652173913" />
         <entry key="..\:/Users/peter/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.358695652173913" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.196" />
@@ -13,11 +14,14 @@
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/fragment_navigation_bar.xml" value="0.358695652173913" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/fragment_second.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/main_view.xml" value="0.29853723404255317" />
-        <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/order_chicago_view.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/order_chicago_view.xml" value="0.3535749265426053" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/order_ny_view.xml" value="0.358695652173913" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/topping_row.xml" value="0.358695652173913" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/view_all_store_orders_view.xml" value="0.358695652173913" />
         <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/layout/view_current_orders_view.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2985" />
+        <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2985" />
+        <entry key="..\:/Users/peter/Documents/softmethandroid/app/src/main/res/mipmap-anydpi-v26/launcher_icon.xml" value="0.2985" />
       </map>
     </option>
   </component>

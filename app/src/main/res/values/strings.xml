@@ -17,6 +17,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="crust_type">Crust Type</string>
     <string name="price">Price $</string>
+    <string name="place_order">Place Order</string>
     <string name="add_to_order">Add To Order</string>
     <string name="add">Add Topping</string>
     <string name="remove">Remove Topping</string>
@@ -25,6 +26,27 @@
     <string name="large">Large</string>
     <string name="list_of_toppings">List Of Toppings</string>
     <string name="added_toppings">Added Toppings</string>
+    <string name="select_order">Select Order To View</string>
+    <string name="order_total">Order Total (Tax Included) $</string>
+    <string name="current_order_total">Current Order Total $</string>
+    <string name="clear_all_orders">Clear Order</string>
+    <string name="subtotal">Subtotal: $</string>
+    <string name="sales_tax">Sales Tax: $</string>
+    <string name="zero">0.00</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="canceled_order">Successfully Canceled Order</string>
+    <string name="hand_tossed">Hand Tossed</string>
+    <string name="brooklyn">Brooklyn</string>
+    <string name="thin">Thin</string>
+    <string name="pan">Pan</string>
+    <string name="deep_dish">Deep Dish</string>
+    <string name="stuffed">Stuffed</string>
+    <string name="order_number">Order Number</string>
+    <string name="store_order">View All Store Orders</string>
+    <string name="select_to_add">Select a topping below to add to pizza</string>
+    <string name="select_to_remove">Select a topping from the list below to remove from pizza</string>
+    <string name="current_order">All Pizzas in Current Order</string>
+    <string name="click_to_remove">Select a pizza from below to remove from current order</string>
     <string-array name="toppings_array">
         <item>Pineapple</item>
         <item>Chicken</item>

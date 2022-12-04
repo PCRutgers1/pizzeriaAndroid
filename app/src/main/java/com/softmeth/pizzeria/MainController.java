@@ -31,17 +31,6 @@ public class MainController extends AppCompatActivity {
     public void orderChicagoPizza(View v) {
         Intent newActivity = new Intent(this,ChicagoPizzaController.class);
         startActivity(newActivity);
-        Toast.makeText(MainController.this, "1", Toast.LENGTH_LONG).show();
-//        try {
-//            FXMLLoader fxmlLoader = new FXMLLoader(MainController.class.getResource("ChicagoView.fxml"));
-//            Scene scene = new Scene(fxmlLoader.load(), 600, 500);
-//            Stage stage = new Stage();
-//            stage.setTitle("Order Chicago Style Pizza");
-//            stage.setResizable(false);
-//            stage.setScene(scene);
-//            stage.show();
-//        }catch(Exception ignored){
-//        }
     }
 
 
@@ -53,18 +42,7 @@ public class MainController extends AppCompatActivity {
     public void orderNYPizza(View v) {
         Intent newActivity = new Intent(this,NYPizzaController.class);
         startActivity(newActivity);
-        Toast.makeText(MainController.this, "222", Toast.LENGTH_LONG).show();
 
-//        try {
-//            FXMLLoader fxmlLoader = new FXMLLoader(MainController.class.getResource("NYView.fxml"));
-//            Scene scene = new Scene(fxmlLoader.load(), 600, 500);
-//            Stage stage = new Stage();
-//            stage.setTitle("Order New York Style Pizza");
-//            stage.setResizable(false);
-//            stage.setScene(scene);
-//            stage.show();
-//        }catch(Exception ignored){
-//        }
     }
 
     /**
@@ -75,18 +53,7 @@ public class MainController extends AppCompatActivity {
     public void viewCurrentOrder(View v) {
         Intent newActivity = new Intent(this,CurrentOrderController.class);
         startActivity(newActivity);
-        Toast.makeText(MainController.this, "333", Toast.LENGTH_LONG).show();
 
-//        try {
-//            FXMLLoader fxmlLoader = new FXMLLoader(MainController.class.getResource("CurrentOrderView.fxml"));
-//            Scene scene = new Scene(fxmlLoader.load(), 600, 500);
-//            Stage stage = new Stage();
-//            stage.setResizable(false);
-//            stage.setTitle("View Current Order");
-//            stage.setScene(scene);
-//            stage.show();
-//        }catch(Exception ignored){
-//        }
 
     }
 
@@ -98,17 +65,6 @@ public class MainController extends AppCompatActivity {
     public void viewStoreOrders(View v) {
         Intent newActivity = new Intent(this,StoreOrderController.class);
         startActivity(newActivity);
-        Toast.makeText(MainController.this, "333", Toast.LENGTH_LONG).show();
 
-//        try {
-//            FXMLLoader fxmlLoader = new FXMLLoader(MainController.class.getResource("StoreOrderView.fxml"));
-//            Scene scene = new Scene(fxmlLoader.load(), 600, 500);
-//            Stage stage = new Stage();
-//            stage.setResizable(false);
-//            stage.setTitle("View ALl Store Orders");
-//            stage.setScene(scene);
-//            stage.show();
-//        }catch(Exception ignored){
-//        }
     }
 }

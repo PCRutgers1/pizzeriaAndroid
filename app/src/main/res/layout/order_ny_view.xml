@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="209dp"
                 android:contentDescription="@string/order_ny_pizza"
-                app:srcCompat="@drawable/newyorkpizza" />
+                app:srcCompat="@drawable/newyork" />
 
             <Spinner
                 android:id="@+id/ChoosePizzaNY"
@@ -51,12 +51,14 @@
                     android:id="@+id/small"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:checked="true"
                     android:text="@string/small" />
 
                 <RadioButton
                     android:id="@+id/medium"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:checked="false"
                     android:text="@string/medium" />
 
                 <RadioButton
@@ -89,7 +91,15 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/list_of_toppings" />
+                android:text="@string/list_of_toppings"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_to_add" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/ToppingsListNY"
@@ -98,24 +108,20 @@
 
             </androidx.recyclerview.widget.RecyclerView>
 
-            <Button
-                android:id="@+id/NYAddButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/add" />
-
-            <Button
-                android:id="@+id/NYRemoveButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:text="@string/remove" />
-
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/added_toppings" />
+                android:layout_marginTop="15dp"
+                android:text="@string/added_toppings"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_to_remove" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/MyToppingsListNY"
@@ -131,12 +137,18 @@
                     android:id="@+id/textView5"
                     android:layout_width="114dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/price" />
+                    android:layout_marginTop="15dp"
+                    android:text="@string/price"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/PriceOfPizzaNY"
-                    android:layout_width="148dp"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <Button

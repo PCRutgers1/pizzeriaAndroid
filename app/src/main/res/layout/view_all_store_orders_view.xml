@@ -7,47 +7,69 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
-            <androidx.recyclerview.widget.RecyclerView
+            <TextView
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/view_all_store_orders"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
-            </androidx.recyclerview.widget.RecyclerView>
+            <ListView
+                android:id="@+id/StoreOrderList"
+                android:layout_width="match_parent"
+                android:layout_height="317dp" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/cancelOrder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cancel Order" />
+                android:text="@string/cancel_order" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_order" />
 
             <Spinner
-                android:id="@+id/spinner2"
+                android:id="@+id/OrderNumber"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:contentDescription="@string/order_number"
+                android:minHeight="48dp" />
 
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="203dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_total" />
+
+                <TextView
+                    android:id="@+id/OrderTotalStore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
